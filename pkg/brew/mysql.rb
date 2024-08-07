@@ -1,12 +1,12 @@
 # To install:
-#   brew tap thekuwayama/mysql5.7
-#   brew install mysql5.7
+#   brew tap thekuwayama/mysql
+#   brew install mysql
 #
 # To remove:
-#   brew uninstall mysql5.7
-#   brew untap thekuwayama/mysql5.7
+#   brew uninstall mysql
+#   brew untap thekuwayama/mysql
 
-class Mysql57 < Formula
+class Mysql < Formula
   desc "Open source relational database management system"
   homepage "https://dev.mysql.com/doc/refman/5.7/en/"
   url "https://cdn.mysql.com/Downloads/MySQL-5.7/mysql-boost-5.7.44.tar.gz"
