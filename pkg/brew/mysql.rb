@@ -1,5 +1,7 @@
 # To install:
-#   brew install thekuwayama/homebrew-mysql/mysql --build-from-source
+#   brew install --build-from-source thekuwayama/homebrew-mysql/mysql
+# To uninstall:
+#   brew uninstall mysql
 
 class Mysql < Formula
   desc "Open source relational database management system"
